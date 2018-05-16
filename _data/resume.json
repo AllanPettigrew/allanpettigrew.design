@@ -1,0 +1,28 @@
+{
+  "basics": {
+    "name": "Allan Pettigrew",
+    "label": "",
+    "picture": "",
+    "email": "allanpettigrew1@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
