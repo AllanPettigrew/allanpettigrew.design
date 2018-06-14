@@ -1,0 +1,23 @@
+<!-- Site Meta Data via Nunjucks -->
+ {% set site = {
+    
+        'title' : 'Allan Pettigrew',
+        'email' : 'allanpettigrew1@gmail.com',
+        'instagram' : 'allanpettigrew1',
+        'phone' : '509.936.4610'
+    
+    }
+ %}  
+
+<html>
+  {% include "_includes/head.html" %}
+  <body> 
+    
+    {% block content %}
+   
+    {% endblock %}
+    
+    {% include "_includes/scripts.html" %}
+
+  </body>
+</html>

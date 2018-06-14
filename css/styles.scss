@@ -1,0 +1,41 @@
+// Bulma Framework
+@import "bulma.min";
+
+// Your Styles
+
+img[alt="Portfolio"]{
+  margin-bottom: 0;
+}
+
+header {
+  background: #333;
+  padding: 1em;
+}
+
+.button {
+  margin: 0 .5em;
+}
+
+h1 {
+  font-size: 5em;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.columns {
+  width: 145%;
+}
+
+footer {
+  background: #333;
+  padding: 1em;
+  margin: -1px;
+}
+
+img[alt="insta"] {
+  width: 30px;
+}
+
+img[alt="facebook"] {
+  width: 30px;
+}
