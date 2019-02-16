@@ -1,96 +1,98 @@
-<!-- Site Meta Data via Nunjucks -->
-   
+<!--<html lang="en"> -->
 
-<html>
-  <head>
-    
+<head>
        <!-- RWD -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- iOS MetaTags -->
-        <!-- Change Name of App -->
-    <meta name="apple-mobile-web-app-title" content="My Progressive Web App">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-   
-        <!-- iOS Splash Screen & Favicons for iPhones. Create your own iPad sizes -->
-    <link href="/img/favicons/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
-    <link href="/img/favicons/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />
-    <link href="/img/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" >
-    
-  
-    <!-- Favicons. Not iOS -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/finch_1.5x.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/finch_1x.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/finch_0.75x.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/finch_0.5x.png">
+    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
-    <!--  Bulma -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!--syles------------->
+    <link rel="stylesheet" href="styles/main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    
-    <!--  This Site/App -->
-    <title>Allan Pettigrew</title>
-    <link rel="stylesheet" href="css/styles.processed.css">
-    
+    <!--This Site/App -->
+    <title>Pettigrew Design</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rationale" rel="stylesheet">
   </head>
-  <body> 
+
+<body>
+    
+    <header>
+        <div class="insta"><a href="https://www.instagram.com/allanpettigrew1/" target="_blank"><img id="insta" src="assets/icons/insta.png" alt="Instagram"></a></div>
+        <p id="top"><a href="#bottom_logo">Contact Me</a></p>
+        <div id="profile">
+<!--            <img id="profile_pic" src="assets/finch_logo.png" alt="">-->
+        </div>
+        <div>
+            <div >
+                <img id="ux" src="assets/icons/ux2_1@4x.png" alt="User Experience">
+                <p>UX</p>
+            </div>
+            <div>
+                <img src="assets/icons/web2_1@4x.png" alt="Web">
+                <p>Web</p>
+            </div>
+            <div>
+                <img src="assets/icons/motion2_1@4x.png" alt="Motion">
+                <p>Motion</p>
+            </div>
+            <div>
+                <img src="assets/icons/graphic2_1@4x.png" alt="Graphics">
+                <p id="graphics">Graphics</p>
+            </div>
+        </div>
+    </header>
+    
+<!----------------Parallax--1-------------------------->
+    
+     <section class="parallax"></section>
+    
+<!----------------info/bio--------------------------->
+   
+    <section id="bio">
+        <p>Hello, my name is <span>Allan Pettigrew</span>. I am a user experience, web, motion and graphic deisgner. I am also a <span>team player</span> and love solving problems. If you want me to be a part of your team, <a href="#bottom_logo"><span id="contact">contact me</span></a>.</p>
+    </section>
+    
+<!----------------Parallax--2-------------------------->
+    
+    <section class="parallax_two"></section>
+    
+<!-------------last section----------Use CSS Grid----->
+    
+    <section id="portfolio">
+
+        <div class="work work1"><a href="pages/graphics.html" target="_blank"><div><p>Graphics</p></div></a></div>
+        <div class="work work2"><a href="#" target="_blank"><div><p>User Experience</p></div></a></div>
+        <div class="work work3"><a href="#" target="_blank"><div><p>Motion</p></div></a></div>
+        <div class="work work4"><a href="#" target="_blank"><div><p>Logos</p></div></a></div>
+        <div class="work work5"><a href="#" target="_blank"><div><p>Illustration</p></div></a></div>
+        <div class="work work6"><a href="#" target="_blank"><div><p>Print</p></div></a></div>
+   
+    </section>
+    
+    <!----------------Parallax--3-------------------------->
+    
+    <section class="parallax_three">
+        <div>
+            <img id="bottom_logo" src="assets/Pettigrew1@4x.png" alt="">
+            <div>
+                <p ><a id="email" href = "mailto:allanpettigrew1@gmail.com?subject = Feedback&body = Message">allanpettigrew1@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
     
     
-
-<header class="level-item">
-
-  <a href="page.html" class="button is-outlined">UX</a>
-  <a href="#" class="button is-outlined">Web</a>
-  <a href="#" class="button is-outlined">Motion</a>
-  <a href="#" class="button is-outlined">Graphics</a> 
-  
-</header>
-
-<canvas width="800" height="0"></canvas>
-
-
-  <main class="container is-marginless is-paddingless">
     
-      <article class="columns">
-        <section class="column is-clipped">
-          <img class="is-clipped" src="img/Portfolio3.png" alt="Portfolio">
-        </section>
+    <footer>
         
-        <section class="column is-marginless is-paddingless">
-          <h1 class="">Allan Pettigrew</h1> 
-          <p class="subtitle">UX, WEB and Motion designer</p>
-        </section>
-        
-        
-      </article>
-    
-  </main> 
-
-<footer class="level-item is-clipped">
-
-<div class="container">
-  <div class="columns">
-    <div class="column has-text-white">allanpettigrew1@gmail.com</div>
-    <div class="column has-text-white">509.936.4610</div>
-    <div class="column">
-      <img src="img/instagram-icon-good.png" alt="insta">
-      <img src="img/facebookwhite_icon.png" alt="facebook">
-    </div>
-    
-  </div>  
-</div>
-  
-</footer>
-
-<canvas width="800" height="0"></canvas>
+    </footer>
+ 
+</body>
 
 
-
-    
-      <!-- Scripts -->
-  <script src="js/scripts.js"></script>
-
-  </body>
-</html>
+<!--</html>-->

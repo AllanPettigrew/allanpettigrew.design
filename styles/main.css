@@ -1,0 +1,563 @@
+/*
+font-family: 'PT Serif', serif;
+font-family: 'Rationale', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: #a68847;
+}
+
+/*header*****************************************************/
+
+header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-image: url(../assets/brick.png);
+    box-shadow: 0px 15px 10px -15px #111,
+                0px 15px 20px -15px #111,
+                0px 15px 400px -15px #111;
+}
+
+header > div > div > img {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 0 50px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+header > div > div > p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff9e7;
+}
+
+#graphics {
+    margin-top: 10px;
+}
+    
+
+#header_content {
+    margin-top: 3%;
+}
+
+header p {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Rationale', sans-serif;
+    color: #999
+}
+
+#profile {
+    background-image: url(../assets/Pettigrew1@4x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: px;
+    height: 50vh;
+    width: 50vh;
+}
+
+#profile:hover {
+    background-image: url(../assets/FancyFinch1@4x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0 0 -2px;
+}
+
+#name_job {
+    position: absolute;
+    max-width: 35%;
+    margin-left: 25vw;
+    margin-top: 33vh;
+}
+
+#top {
+    position: absolute;
+    margin-top: -43vh;
+    margin-left: 43vw;
+}
+
+#top:hover {
+    filter: blur(.5px);
+    text-shadow: 0 0 10px #a68847,
+                0 0 20px #a68847,
+                0 0 40px #a68847,
+                0 0 80px #a68847;
+
+}
+
+#insta {
+    width: 40px;
+}
+
+.insta {
+    position: absolute;
+    margin-top: -43vh;
+    margin-left: 36vw;
+}
+
+#insta:hover {
+    filter: blur(.5px);
+    box-shadow: 0 0 10px #a68847,
+                0 0 20px #a68847,
+                0 0 40px #a68847,
+                0 0 80px #a68847;
+    border-radius: 15px;
+}
+
+/*Parallax*********************************************/
+
+.parallax {
+    width: 100%;
+    height: 65%;
+    background-image: url('../assets/cityone.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parallax_two {
+    width: 100%;
+    height: 65%;
+    background-image: url('../assets/citytwo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parallax_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    background-image: url('../assets/citythree.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0;
+}
+/*bio/info*********************************************/
+
+#bio {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/brick.png);
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 15px 10px -15px #111,
+                0px 15px 20px -15px #111,
+                0px 15px 400px -15px #111;
+    
+}
+
+#bio p {
+    width: 40vw;
+    font-size: 2rem;
+    font-family: 'PT Serif', serif;
+    margin: auto;
+    color: #fff9e7;
+    font-family: 'Rationale', sans-serif;
+}
+
+span {
+    color: #a68847;
+}
+
+#contact {
+    text-decoration: underline;
+}
+
+#contact:hover {
+    filter: blur(.5px);
+    text-shadow: 0 0 10px #a68847,
+                0 0 20px #a68847,
+                0 0 40px #a68847,
+                0 0 80px #a68847;
+}
+
+
+/*portfolio part****************************************/
+
+#portfolio {
+    background: ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50% 50%;
+    grid-gap: ;
+    background-image: url(../assets/brick.png);
+    height: 90vh;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    margin: 8px
+}
+
+/*Work1********************************************/
+
+.work1 {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/wings.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.work1 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work1 a {
+    width: 100%;
+}
+
+.work1 > a div p {
+    margin: auto;
+    
+}
+
+.work1 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+.work1:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+
+
+/*work2**********************************************/
+
+.work2 {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/spaced.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.work2 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work2 a {
+    width: 100%;
+}
+
+.work2 > a div p {
+    margin: auto;
+    
+}
+
+.work2 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+
+.work2:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+/*work3***********************************************/
+
+.work3 {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: cover;
+    background-position: left;
+}
+
+.work3 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work3 a {
+    width: 100%;
+}
+
+.work3 > a div p {
+    margin: auto;
+    
+}
+
+.work3 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+.work3:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+/*work4***********************************************/
+
+.work4 {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: cover;
+    background-position: left;
+}
+
+.work4 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work4 a {
+    width: 100%;
+}
+
+.work4 > a div p {
+    margin: auto;
+    
+}
+
+.work4 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+.work4:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+/*work5************************************************/
+
+.work5 {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: cover;
+    background-position: left;
+}
+
+.work5 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work5 a {
+    width: 100%;
+}
+
+.work5 > a div p {
+    margin: auto;
+    
+}
+
+.work5 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+.work5:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+/*work6**************************************************/
+
+.work6 {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-size: cover;
+    background-position: left;
+}
+
+.work6 > a > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    color: transparent;
+}
+
+.work6 a {
+    width: 100%;
+}
+
+.work6 > a div p {
+    margin: auto;
+    
+}
+
+.work6 > a > div:hover {
+    color: white;
+    font-family: 'Rationale', sans-serif;
+    font-size: 3rem
+    
+}
+
+.work6:hover {
+    outline: 15px solid #a68847;
+    background: black;
+}
+
+
+/*bottom contact info**********************************/
+
+.parallax_three > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50%;
+    background-image: url(../assets/brick.png);
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 15px 10px -25px #a68847,
+                0px 15px 20px -25px #a68847,
+                0px 15px 400px -15px #a68847;
+        
+}
+
+.parallax_three > div > div {
+    display: flex;
+    margin-bottom: -15
+}
+
+.parallax_three > div > div > p {
+    margin: 23px;
+    font-size: 2rem;
+    color: #fff9e7;
+    font-family: 'Rationale', sans-serif;
+}
+
+
+#bottom_logo {
+    max-width: 250;
+}
+
+#email {
+    text-decoration: none;
+    color: #fff9e7;
+}
+
+#email:hover {
+    filter: blur(.5px);
+    text-shadow: 0 0 10px #a68847,
+                0 0 20px #a68847,
+                0 0 40px #a68847,
+                0 0 80px #a68847;
+}
+
+/*Scroll Bar****************************************/
+
+
+::-webkit-scrollbar {
+    background: ;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid #a68847;
+    background: #a68847;
+    
+    
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #111;
+    
+
+}
+
+
+
+
