@@ -133,7 +133,7 @@ header p {
 
 .parallax {
     width: 100%;
-    height: 65%;
+    height: 65vh;
     background-image: url('../assets/cityone.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -146,7 +146,7 @@ header p {
 
 .parallax_two {
     width: 100%;
-    height: 65%;
+    height: 65vh;
     background-image: url('../assets/citytwo.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -162,7 +162,7 @@ header p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 65%;
+    height: 65vh;
     background-image: url('../assets/citythree.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -245,7 +245,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -262,7 +262,9 @@ span {
 .work1 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -288,7 +290,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -305,8 +307,9 @@ span {
 .work2 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
-    
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -330,7 +333,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -347,7 +350,9 @@ span {
 .work3 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -371,7 +376,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -388,7 +393,9 @@ span {
 .work4 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -412,7 +419,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -429,7 +436,9 @@ span {
 .work5 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -453,7 +462,7 @@ span {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: auto;
     color: transparent;
 }
@@ -470,7 +479,9 @@ span {
 .work6 > a > div:hover {
     color: white;
     font-family: 'Rationale', sans-serif;
-    font-size: 3rem
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
     
 }
 
@@ -488,7 +499,7 @@ span {
     align-items: center;
     flex-direction: column;
     width: 30vw;
-    height: 50%;
+    height: 40vh;
     background-image: url(../assets/brick.png);
     background-position: center;
     border-radius: 20px;
@@ -512,7 +523,7 @@ span {
 
 
 #bottom_logo {
-    max-width: 250;
+    max-width: 250px;
 }
 
 #email {
