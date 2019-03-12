@@ -6,6 +6,7 @@ html {
 
 body {
     background-image: url(../assets/brick.png);
+    background-position: center;
     max-width: 100%;
     background-color: black;
 }

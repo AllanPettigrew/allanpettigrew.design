@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/brick.png);
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    margin: 20px;
+    align-self: center;
+    border: 5px solid #a68847;
+}
+
+/*Scroll Bar****************************************/
+
+
+::-webkit-scrollbar {
+    background: ;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid #a68847;
+    background: #a68847;
+    
+    
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #111;
+    
+
+}
