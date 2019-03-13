@@ -127,10 +127,31 @@ header div {
 
 /*Parallax*********************************************/
 
+#bio {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 8px solid #a68847;
+    width: 700px;
+    height: 250px;
+    background-color: white;
+}
+
+#bio p {
+    font-size: 1.7rem;
+    margin: 60px;
+}
+
+span {
+    color: #a68847;
+}
+
 .parallax {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 85vh;
-    background-image: url('../assets/me/shortbio.jpg');
+    background-image: url('../assets/me/lean.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

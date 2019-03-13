@@ -11,6 +11,21 @@ body {
     background-color: black;
 }
 
+/*top logo**************************************/
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#home img {
+    align-self: center;
+    width: 200px;
+    margin-top: 20px
+}
+
+/*screens****************************************/
+
 a {
     text-decoration: none;
     color: #a68847;
@@ -22,7 +37,7 @@ a {
     align-items: center;
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .mobile img{

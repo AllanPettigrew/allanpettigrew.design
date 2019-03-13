@@ -1,13 +1,28 @@
 body {
     background-color: black;
+    background-image: url(../assets/brick.png);
+}
+
+/*top logo**************************************/
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#home img {
+    align-self: center;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 #grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    background-image: url(../assets/brick.png);
+    height: 85vh;
+    
     background-position: center;
 }
 
@@ -17,7 +32,7 @@ body {
     justify-content: center;
 }
 
-img {
+.row img {
     width: 20%;
     align-self: center;
     margin: 20px;
