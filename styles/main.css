@@ -1,6 +1,5 @@
 /*
-font-family: 'PT Serif', serif;
-font-family: 'Rationale', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 color: #a68847;
 */
 
@@ -122,6 +121,10 @@ header div {
     color: #a68847;
 }
 
+.arrow:hover {
+    color: white;
+}
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -148,6 +151,10 @@ header div {
 
 span {
     color: #a68847;
+}
+
+#contact {
+    text-decoration: underline;
 }
 
 .parallax {
@@ -194,24 +201,29 @@ span {
 
 /*portfolio part****************************************/
 
+#foliowraper {
+    
+}
+
 #portfolio h2 {
-    margin: 0;
     text-align: center;
     color: #a68847;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
-    padding-top: 50px
 }
 
 .icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    margin: 20px auto 40px;
     grid-row: 2;
 }
 
 #portfolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-image: url(../assets/brick.png);
     height: 40vh;
     background-color: #121212
@@ -221,7 +233,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 50px 500px 0;
+    margin: 0 20%
 }
 
 .icon img {

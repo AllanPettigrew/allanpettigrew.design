@@ -3,6 +3,22 @@ body {
      background-image: url(../assets/brick.png);
 }
 
+#homebutton {
+    color: white;
+    background-color: #a68847;
+    margin: 20px 0 0 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#homebutton:hover {
+    color: black;
+    background-color: white;
+}
+
+
 /*top logo**************************************/
 
 #home {
