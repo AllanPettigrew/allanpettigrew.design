@@ -201,23 +201,25 @@ span {
 
 /*portfolio part****************************************/
 
-#foliowraper {
-    
-}
 
 #portfolio h2 {
     text-align: center;
     color: #a68847;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px auto 40px;
-    grid-row: 2;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #portfolio {
@@ -225,40 +227,33 @@ span {
     justify-content: center;
     flex-direction: column;
     background-image: url(../assets/brick.png);
-    height: 40vh;
     background-color: #121212
 }
 
 #icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 20%
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icon img {
     align-self: center;
-    width: 50%;
-    margin-bottom: 10px
-}
-
-.icon h1 {
-    margin: auto;
-    color: #a68847;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    text-align: center;
+    width: 100%;
+    margin: 10% 5% 20% 5%
 }
 
 .icon a {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
 }
 
 
 
-.icon :hover {
+a img:hover {
     text-decoration: underline;
+    outline: 5px solid #a68847;
 }
 
 
