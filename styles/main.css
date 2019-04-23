@@ -31,9 +31,14 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-image: url(../assets/brick.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 header div {
@@ -133,20 +138,33 @@ header div {
 
 /*Parallax*********************************************/
 
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    margin: 5px 5px 5px -30px
+}
+
+#box {
+    width: 40%;
+}
+
+#box img{
+    height: 100%;
+}
+
 #bio {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 30%;
     margin: auto;
-    border: 8px solid #a68847;
-    width: 700px;
-    height: 250px;
-    background-color: white;
 }
 
 #bio p {
     font-size: 1.55rem;
-    margin: 60px;
-    font-family: 'Ubuntu', sans-serif;
+    margin: 6px;
+    font-family: 'Courgette', cursive;
+    
 }
 
 span {
@@ -162,7 +180,7 @@ span {
     justify-content: center;
     width: 100%;
     height: 85vh;
-    background-image: url('../assets/me/lean.jpg');
+    background-color: white;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -191,7 +209,7 @@ span {
     align-items: center;
     width: 100%;
     height: 65vh;
-    background-image: url('../assets/me/footer.jpg');
+    background-image: url('../assets/brick.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -202,58 +220,32 @@ span {
 /*portfolio part****************************************/
 
 
-#portfolio h2 {
-    text-align: center;
-    color: #a68847;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4rem;
-}
-
-.icon {
+#folio {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 100%;
 }
-
-.row {
+.rows {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
-}
-
-#portfolio {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(../assets/brick.png);
-    background-color: #121212
-}
-
-#icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.icon img {
-    align-self: center;
     width: 100%;
-    margin: 10% 5% 20% 5%
+}
+.rows a img {
+    width: 100%;
+    align-self: center;
 }
 
-.icon a {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    margin: 0 auto;
+#rowtwo a img {
+    width: 100%
 }
 
-
+.rows img:hover {
+    filter: grayscale(100%)
+}
 
 a img:hover {
     text-decoration: underline;
-    outline: 5px solid #a68847;
+    outline: 10px solid white;
 }
 
 
@@ -277,7 +269,7 @@ a img:hover {
 .parallax_three > div > div > p {
     margin: 23px;
     font-size: 2rem;
-    color: #fff9e7;
+    color: white;
     font-size: 1rem;
 }
 
@@ -288,7 +280,8 @@ a img:hover {
 
 #email {
     text-decoration: none;
-    color: #a68847
+    color: white;
+    font-size: 1.5em;
 }
 
 #email:hover {
@@ -304,8 +297,9 @@ footer {
 }
 
 footer p {
-    color: #a68847;
+    color: white;
 }
+
 
 /*Scroll Bar****************************************/
 
