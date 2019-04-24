@@ -3,51 +3,62 @@ body {
      background-image: url(../assets/brick.png);
 }
 
-#homebutton {
-    color: white;
-    background-color: #a68847;
-    margin: 20px 0 0 20px;
-    width: 80px;
-    height: 30px;
-    font-size: 1rem;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 #homebutton:hover {
     color: black;
     background-color: white;
 }
 
+/*Nav Bar**********************************************/
 
-/*top logo**************************************/
-
-#home {
-    display: flex;
-    justify-content: center;
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #222;
 }
 
-#home img {
-    align-self: center;
-    width: 200px;
-    margin-top: 20px
+nav ul{
+    text-align: center;
 }
 
-#column {
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
+    height: 2%;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+nav ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+    
+}
+
+nav ul li a:hover, nav ul li a:active{
+      border-bottom: 4px solid #a68847;
+      padding-bottom: 8px;
+}
+
+/*Content*****************************************/
+
+.column {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     background-position: center;
 }
 
 video {
     margin: 0 auto;
-    margin-bottom: 50px;
+    z-index: -1;
 }
 
-h1 {
-    margin: 50px auto -20px auto;
-    font-family: 'Ubuntu', sans-serif;
-    color: #a68847;
+#toprow {
+     margin-top: 50px
 }
 
 /*Scroll Bar****************************************/
