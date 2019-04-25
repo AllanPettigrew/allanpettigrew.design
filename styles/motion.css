@@ -54,11 +54,11 @@ nav ul li a:hover, nav ul li a:active{
 
 video {
     margin: 0 auto;
-    z-index: -1;
+    height: 35%
 }
 
 #toprow {
-     margin-top: 50px
+     margin-top: 65px
 }
 
 /*Scroll Bar****************************************/
